@@ -1,0 +1,58 @@
+@import url(https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900);
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #DBE5EA;
+    --secondary-color: #2F4952;
+    --ascent1-color: #131C38;
+    --ascent2-color: #6C5946;
+
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color:var(--primary-color);
+    --nav-link-color:var(--secondary-color);
+    --nav-hover-link-color:var(--ascent2-color)
+    --nav-background-color: rgba(0, 0, 0, 0.2)
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--ascent1-color)
+}
+
+header {
+    padding: 20px;
+    background-color:var(--primary-color)
+}
+
+p{
+    padding: 10px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--ascent1-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a {
+    nav a:link, nav a: visited;
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
