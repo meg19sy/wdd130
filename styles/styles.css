@@ -22,6 +22,8 @@ img{
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 p{
     padding: 10px;
@@ -30,7 +32,7 @@ main{
     max-width: 840px;
 }
 aside{
-    width: 20rem;
+    width: 28rem;
     margin: 1rem;
     border: 3px solid rgba(2, 3, 22, 0.2); /* 1 */
     padding: 1rem;
@@ -41,7 +43,6 @@ aside{
 aside img{
     width: 200px;
     height: auto;
-    float: right;
 }
 main img{
     width: 150px;
@@ -64,7 +65,7 @@ footer{
     border: 1px solid rgba(0,0,0,.1);
     padding: 1rem;
     background-color: #ddd;
-    color: #000;
+    color: #000000;
 }
 
 aside h2 {
