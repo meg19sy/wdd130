@@ -179,6 +179,7 @@ nav a:hover {
     margin: 0 auto;
   }
   
+  /* Additions for Contact page */
   .company-info {
     margin-bottom: 20px;
 }
@@ -251,4 +252,70 @@ button:hover {
 }
 
 
-  
+/* Additions for Trips page */
+#cta {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#cta h2 {
+  margin-bottom: 20px;
+}
+
+#cta p {
+  margin-bottom: 40px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--ascent1-color);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: var(--primary-color);
+}
+
+#trip-table {
+  display: flex;
+  justify-content: center; /* Center the table horizontally */
+  margin-bottom: 50px;
+}
+
+table {
+  width: 100%; /* Make the table fill the whole space */
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin: 0;
+  text-align: center; /* Center-align table content */
+}
+
+th {
+  background-color: #f2f2f2;
+}
+/* Footer adjustment */
+footer img {
+  display: block;
+  margin: 20px auto;
+}
+
+
+/* Wireframe link style */
+.wireframe-link {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #666;
+}
+
+.wireframe-link:hover {
+  text-decoration: underline;
+}
