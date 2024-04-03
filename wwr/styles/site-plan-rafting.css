@@ -319,3 +319,108 @@ footer img {
 .wireframe-link:hover {
   text-decoration: underline;
 }
+
+/*  Home page */
+
+
+/*HERO IMAGE*/
+
+.hero-overlay h1 {
+  background-color: rgba(0, 0, 0, 0.5); /* 50% gray transparency */
+  color: white; /* Text color stays white */
+  padding: 1rem; /* Add some padding inside the background */
+  text-align: center; /* Center text horizontally */
+}
+
+.hero-overlay {
+  display: flex; /* Enable flexbox for centering */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  position: absolute; /* Overlap the hero image */
+  top: 0; /* Position at the top */
+  left: 0; /* Position at the left */
+  width: 100%; /* Span the full width and height */
+  height: 100%; 
+}
+
+
+/*FORMS STYLE ADDITIONAL*/
+.newsletter {
+  padding: 10px;
+  background-color: var(--accent1-color);
+  text-align: center;
+}
+
+.newsletter form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter label,
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/*NEW SECTION*/
+
+section.newsletter {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  grid-gap: 20px; /* Optional spacing between form and h2 */
+}
+
+section.newsletter h2 {
+  grid-column: 1 / span 2; /* Occupies both columns */
+  text-align: center;
+}
+section.newsletter form {
+  max-width: 100%; /* Fills the available space in the column */
+}
+.cta {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: var(--ascent1-color);
+  color: white;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.grid-item {
+  background-color: var(--ascent2-color);
+  padding: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.grid-item h3 {
+  color: white;
+}
+
+.grid-item p {
+  color: white;
+}
+
+
+/*THE ADVENTURE SECTION*/
+
+
