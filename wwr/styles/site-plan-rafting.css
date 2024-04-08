@@ -387,6 +387,8 @@ section.newsletter h2 {
 section.newsletter form {
   max-width: 100%; /* Fills the available space in the column */
 }
+
+
 .cta {
   text-align: center;
   padding: 50px 20px;
@@ -426,4 +428,10 @@ section.cta a.button {
 }
 
 
-
+section.spread-text {
+  display: grid;
+  grid-template-columns: repeat(1, 5fr); /* Creates 5 equal columns */
+  text-align: center; /* Aligns text in the center of each column */
+  align-items: center; /* Aligns content vertically in the center */
+  padding: 1rem; /* Adds some padding for spacing */
+}
