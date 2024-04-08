@@ -394,6 +394,11 @@ section.newsletter form {
   color: white;
 }
 
+section.cta a.button {
+  grid-column: 3 / span 1; /* Occupies the 3rd column */
+}
+
+
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -420,7 +425,5 @@ section.newsletter form {
   color: white;
 }
 
-
-/*THE ADVENTURE SECTION*/
 
 
